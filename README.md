@@ -28,16 +28,16 @@ You need Python 3 in order to run this tool.
 `python3 parser.py @config.txt`
 
 ### Mandatory arguments:
-`-k`/`--key` The authentication key for the API
-`-d`/`--document`The name of the document/directory 
-`-u`/`--url`The URL of the file 
-NOTE: You can either provide a document/directory or a URL, but not both.
+`-k`/`--key` The authentication key for the API\
+`-d`/`--document`The name of the document/directory\
+`-u`/`--url`The URL of the file\
+NOTE: You can either provide a document/directory or a URL, but not both\
 
 ### Optional arguments:
-`-t`/`--template` The document's template
-`-e`/`--extraction`Choose between `fast (default)` or `full`extraction. 
-`-j`/`--exportToJson`Choose whether to display the results in terminal (default) or export to a json file.
-`-m`/`--monitor`Monitor a given directory. Does not wok with files or URLs.
+`-t`/`--template` The document's template\
+`-e`/`--extraction`Choose between `fast (default)` or `full`extraction\
+`-j`/`--exportToJson`Choose whether to display the results in terminal (default) or export to a json file\
+`-m`/`--monitor`Monitor a given directory. Does not wok with files or URLs\
 
 
 License
