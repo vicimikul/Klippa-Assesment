@@ -13,9 +13,9 @@ You need Python 3 in order to run this tool.
 - Export the results to a json file
 ### Extras
 - Choose a directory to process & batch process all the files inside
--  Directory statistics based on files inside #TODO
+-  Directory statistics based on files inside 
 -  Monitor a directory and automatically process newly added files
-- Concurrency for batch processing in folders #TODO
+- Concurrency for batch processing in folders
 - Multi threading for the monitor feature, as it does not stop monitoring when processing a file #TODO
 - Provide arguments for the CLI using the `config.txt` file
 
