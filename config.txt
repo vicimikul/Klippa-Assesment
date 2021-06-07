@@ -1,0 +1,12 @@
+--key
+"KEY"
+--template
+
+--extraction
+fast
+--document
+direct
+--exportToJson
+True
+--monitor
+False
