@@ -37,8 +37,9 @@ NOTE: You can either provide a document/directory or a URL, but not both
 `-t`/`--template` The document's template\
 `-e`/`--extraction`Choose between `fast (default)` or `full`extraction\
 `-j`/`--exportToJson`Choose whether to display the results in terminal (default) or export to a json file\
-`-m`/`--monitor`Monitor a given directory. Does not wok with files or URLs
-
+`-m`/`--monitor`Monitor a given directory if True, default is False. Does not work with files or URLs\
+\
+NOTE: Because `monitor` & `exportToJson` arguments have `type=bool`, they will be set to `True` whenever there is an argument passed, no matter if it is true or false.
 
 License
 ----
